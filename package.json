@@ -1,0 +1,15 @@
+{
+  "name": "ngquire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "coffee test/test.coffee",
+    "compile": "coffee --compile --output lib src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "callsites": "^1.0.0"
+  }
+}
